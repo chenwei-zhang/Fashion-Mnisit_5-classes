@@ -1,0 +1,24 @@
+name: embuild
+channels:
+  - defaults
+  - conda-forge
+  - salilab
+dependencies:
+  - nomkl
+  - python==3.10
+  - perl==5.32
+  - pip
+  - pip:
+    - requests
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib
+    - plotly
+    - mrcfile
+    - prody
+    - kaleido
+    - tqdm
+    - torch
+    - torchvision
+    - torchaudio
